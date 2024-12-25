@@ -7,7 +7,7 @@
     "build": "tsc",
     "start": "ts-node src/index.ts",
     "watch": "tsc --watch",
-    "pre:dev": "nodemon dist/index.js",
+    "pre:dev": "node dist/index.js",
     "dev": "concurrently \"npm run pre:dev\" \"npm run watch\""
   },
   "keywords": [],
