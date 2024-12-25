@@ -10,6 +10,7 @@
    "resolveJsonModule": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "types": ["express"]
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
