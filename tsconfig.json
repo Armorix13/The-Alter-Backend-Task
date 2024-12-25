@@ -10,6 +10,7 @@
    "resolveJsonModule": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "typeRoots": ["./node_modules/@types", "./src/types"],
     "types": ["express"]
   },
   "include": ["src/**/*.ts"],
