@@ -80,7 +80,7 @@ app.use(errorMiddleware);
 connectToDB()
   .then(() => {
     console.log("Connected to DB successfully", process.env.MONGO_URI);
-    const port = process.env.PORT || 8080;  // Default to 8080 if PORT is not defined
+    const port = process.env.PORT || 8080;
     app.listen(port, () => {
       console.log(`Server is running on port: ${port}`);
     });

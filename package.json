@@ -36,7 +36,6 @@
     "express": "^4.19.2",
     "express-rate-limit": "^7.5.0",
     "fs": "^0.0.1-security",
-    "google-auth-library": "^9.15.0",
     "http-status": "^2.0.0",
     "joi": "^17.13.3",
     "jsonwebtoken": "^9.0.2",
